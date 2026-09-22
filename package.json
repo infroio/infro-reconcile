@@ -48,8 +48,8 @@
     "prepublishOnly": "npm run typecheck && npm run test && npm run build",
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
-    "test": "npm run build && node --test \"test/*.test.mjs\"",
-    "test:watch": "node --test --watch \"test/*.test.mjs\""
+    "test": "npm run build && node --test",
+    "test:watch": "node --test --watch"
   },
   "devDependencies": {
     "typescript": "^5",
