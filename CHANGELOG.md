@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- Link the package metadata to its public GitHub repository and issue tracker.
+- Make the test command portable across supported operating systems.
+
 ## 0.1.0
 
 First release.
