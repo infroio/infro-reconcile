@@ -6,7 +6,7 @@
   "homepage": "https://infro.io",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/infroio/reconcile.git"
+    "url": "git+https://github.com/infroio/infro-reconcile.git"
   },
   "keywords": [
     "llm",
@@ -56,7 +56,7 @@
     "@types/node": "^24.13.3"
   },
   "bugs": {
-    "url": "https://github.com/infroio/reconcile/issues",
+    "url": "https://github.com/infroio/infro-reconcile/issues",
     "email": "support@infro.io"
   }
 }

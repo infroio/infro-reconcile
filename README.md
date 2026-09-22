@@ -1,7 +1,7 @@
 # infro-reconcile
 
 [![npm](https://img.shields.io/npm/v/%40infro.io%2Freconcile)](https://www.npmjs.com/package/@infro.io/reconcile)
-[![CI](https://github.com/infroio/reconcile/actions/workflows/ci.yml/badge.svg)](https://github.com/infroio/reconcile/actions/workflows/ci.yml)
+[![CI](https://github.com/infroio/infro-reconcile/actions/workflows/ci.yml/badge.svg)](https://github.com/infroio/infro-reconcile/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/node/v/%40infro.io%2Freconcile)](https://www.npmjs.com/package/@infro.io/reconcile)
 
