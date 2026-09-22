@@ -1,6 +1,6 @@
 {
   "name": "@infro.io/reconcile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Compare what OpenAI and Anthropic actually billed against your own usage export, and print the variance.",
   "license": "MIT",
   "homepage": "https://infro.io",
