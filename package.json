@@ -1,0 +1,62 @@
+{
+  "name": "@infro.io/reconcile",
+  "version": "0.1.0",
+  "description": "Compare what OpenAI and Anthropic actually billed against your own usage export, and print the variance.",
+  "license": "MIT",
+  "homepage": "https://infro.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infroio/reconcile.git"
+  },
+  "keywords": [
+    "llm",
+    "finops",
+    "cost",
+    "reconciliation",
+    "openai",
+    "anthropic",
+    "litellm",
+    "langfuse",
+    "observability",
+    "cli"
+  ],
+  "type": "module",
+  "bin": {
+    "infro-reconcile": "dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run typecheck && npm run test && npm run build",
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build && node --test \"test/*.test.mjs\"",
+    "test:watch": "node --test --watch \"test/*.test.mjs\""
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^24.13.3"
+  },
+  "bugs": {
+    "url": "https://github.com/infroio/reconcile/issues",
+    "email": "support@infro.io"
+  }
+}
