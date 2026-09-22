@@ -9,7 +9,7 @@
  *
  * `sdks/scripts/check-release.mjs` asserts they agree.
  */
-export const VERSION = "0.1.0";
+export const VERSION = "0.1.2";
 
 /**
  * Anthropic's documentation asks integrations to identify themselves this way,

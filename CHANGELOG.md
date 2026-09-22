@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2
+
+- Correct the runtime version reported by the CLI and provider user agents and
+  enforce the package version in tests.
+
 ## 0.1.1
 
 - Link the package metadata to its public GitHub repository and issue tracker.

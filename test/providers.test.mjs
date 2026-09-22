@@ -200,7 +200,7 @@ test("both adapters identify themselves and refuse redirects", async () => {
     const fetchImpl = stubFetch(() => ({ body: { data: [], has_more: false } }));
     await provider.fetchDays("k", { ...WINDOW, fetchImpl });
     const headers = fetchImpl.calls[0].init.headers;
-    assert.match(headers["user-agent"], /^infro-reconcile\/\d+\.\d+\.\d+ /);
+    assert.match(headers["user-agent"], /^infro-reconcile\/0\.1\.2 /);
     // `fetch` follows redirects by default and would re-send an Admin key to
     // wherever it was pointed.
     assert.equal(fetchImpl.calls[0].init.redirect, "manual");

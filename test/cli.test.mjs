@@ -111,7 +111,7 @@ test("--help and --version answer without touching the network", async () => {
 
   const version = capture();
   assert.equal(await run(["--version"], version.out, version.err), EXIT_OK);
-  assert.match(version.stdout.trim(), /^\d+\.\d+\.\d+$/);
+  assert.equal(version.stdout.trim(), "0.1.2");
 });
 
 test("an unknown option is refused rather than ignored", async () => {
