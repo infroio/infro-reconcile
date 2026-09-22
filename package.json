@@ -52,8 +52,8 @@
     "test:watch": "node --test --watch"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^24.13.3"
+    "typescript": "^7",
+    "@types/node": "^26.6.2"
   },
   "bugs": {
     "url": "https://github.com/infroio/infro-reconcile/issues",
